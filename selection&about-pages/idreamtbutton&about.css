@@ -1,0 +1,175 @@
+html { 
+    width: 100%;
+    height: 100%;
+    background-image: url("night art.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    font-family: 'Montserrat', sans-serif;
+ }
+
+/* NAV BAR */
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+} 
+
+li a {
+
+    color: whitesmoke;
+    text-decoration: none;
+
+}  
+
+li a:hover {
+    text-decoration: underline;
+}
+
+
+.idreamtlogo {
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+    top: 17px;
+    left: 3%;
+}
+
+.about {
+    float: right;
+    position: relative;
+    right: 2%;
+    top: 20px;
+    font-size: 20px;
+}
+
+
+/* Header */ 
+
+h1 {
+font-weight: 500;
+font-size: 60px;
+color: whitesmoke;
+}
+
+.idreamtiwas {
+position: relative;
+left: 6%;
+padding-top: 40px;
+}
+
+
+/*buttons*/
+
+.clicker {
+    display: grid;
+    width: 80%;
+    grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+    grid-row-gap: 50%;
+    grid-column-gap: 15%;
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+
+a.button {
+ 
+  background: rgba(26, 6, 70, 0.5);
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 1px;
+  border-radius: 2px;
+  color: whitesmoke;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.button:hover {
+ background: rgba(252, 161, 125, 0.54);
+
+}
+
+a.buttonpages {
+    position: absolute;
+    top: 90%;
+    left: 91.5%;
+color: whitesmoke;
+}
+
+
+
+
+        /* ---------------About idream page------------------ */
+
+h4 {
+    color: whitesmoke;
+    
+    text-align: center;
+}
+
+.orange {
+    color: #FCA17D;
+}
+
+h1.idreamtabout {
+    text-align: center;
+    font-size: 50px;
+}
+
+main {
+    position: relative;
+    top: 20px;
+}
+
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    margin: auto;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+   
+}
+
+p {
+  background-color: rgba(245,245,245, 0.75);
+  margin: auto;
+  width: 50%; 
+  padding: 20px 30px 80px 30px;
+  text-align: left;
+  box-sizing: border-box;
+
+}
+
+a.choosenow {
+    display: block;
+    background-color: rgba(252, 161, 125, 0.71);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 30px;
+    padding: 0 30px;
+    width: 50%;
+    margin: auto;
+    border: none;
+    position: relative;
+    top: 40px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
